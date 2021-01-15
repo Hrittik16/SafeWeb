@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 300px;
+}
+
+.headline {
+    padding: 10px 20px;
+    font-family: 'Menlo', sans-serif;
+    color: #2f5876;
+}
+
+.version {
+    color: #444;
+    font-size: 20px;
+}
+
+p {
+    padding: 10px 20px;
+    color: rgb(29, 2, 2);
+}
+
+.btn {
+    margin: 10px 20px;
+    padding: 10px 20px;
+    background-color: rgb(11, 208, 11);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    transform: scale(0.95);
+}
+
+header {
+    border-bottom: 0.5px solid #dadada;
+}
