@@ -11,6 +11,7 @@ function addLayer(element) {
     else if(element.nodeType === Text.TEXT_NODE) { 
         // The else if statement checks if the current
         // element is a text element 
-        element.textContent = element.textContent.replace(/cussword/gi, '⬛⬛⬛⬛')   
+        element.textContent = element.textContent.replace(/cussword/gi, '⬛⬛⬛⬛')
+        element.textContent = element.textContent.replace(/cuss word/gi, '⬛⬛⬛⬛')   
     }
 }
