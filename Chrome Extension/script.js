@@ -1,7 +1,5 @@
 addLayer(document.body)
 
-fetch("cuss_words_updated.json")
-
 function addLayer(element) {
     // This if statement checks if the current element
     // has any child nodes
@@ -13,6 +11,6 @@ function addLayer(element) {
     else if(element.nodeType === Text.TEXT_NODE) { 
         // The else if statement checks if the current
         // element is a text element 
-        element.textContent = element.textContent.replace(//gi)
+        element.textContent = element.textContent.replace(/cussword/gi, '⬛⬛⬛⬛')   
     }
 }
