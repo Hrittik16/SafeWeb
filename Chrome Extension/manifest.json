@@ -3,6 +3,13 @@
     "name": "SafeWeb",
     "description": "Making the web safer for kids",
     "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["script.js"],
+            "css": ["layer.css"]
+        }
+    ],
     "icons": {"128": "icon_128.png"},
     "browser_action": {
         "default_icon": "icon.png",
