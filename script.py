@@ -9,3 +9,4 @@ for line in infile:
 			outfile.write("")
 		else:
 			outfile.write(word)
+
