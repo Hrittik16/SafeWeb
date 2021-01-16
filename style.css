@@ -70,3 +70,15 @@ p {
 .navbar .flex {
     justify-content: space-between;
 }
+
+
+/* Responsive Navbar */
+@media (max-width: 700px) {
+    .navbar .flex {
+        justify-content: center;
+    }
+
+    .navbar .btn {
+        display: none;
+    }
+}
