@@ -168,9 +168,7 @@ a {
 /* Section3 Starts */
 
 .section3 {
-    position: relative;
-    top: 7rem;
-    border: 1px solid black;
+    margin-bottom: 5rem;
 }
 
 .section3-text {
@@ -190,7 +188,34 @@ a {
 /* Section3 Ends */
 
 
+/* Footer Starts */
 
+.footer {
+    border-top: 1px solid black;
+    height: 80px;
+}
+
+.footer .flex {
+    justify-content: space-around;
+}
+
+.footer .linkedin {
+    font-size: 2.5rem;
+}
+
+.footer .github {
+    font-size: 2.5rem;
+}
+
+.footer .email {
+    font-size: 2.5rem;
+}
+
+.footer .resume {
+    font-size: 2.5rem;
+}
+
+/* Footer Ends */
 
 
 
@@ -221,6 +246,22 @@ a {
     .section1-para {
         margin: 0 0;
         font-size: 1rem;
+    }
+
+    .footer {
+        height: 300px;
+    }
+
+    .footer .flex {
+        flex-direction: column;
+    }
+
+    .footer .email {
+        font-size: 2rem;
+    }
+
+    .footer .resume {
+        font-size: 2rem;
     }
 }
 
