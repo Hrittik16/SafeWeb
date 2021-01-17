@@ -137,10 +137,6 @@ p {
 }
 
 @media (max-width: 800px) {
-    .section1 {
-        height: 600px;
-    }
-
     .section1-headline {
         font-size: 2rem;
     }
