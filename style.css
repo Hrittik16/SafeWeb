@@ -151,8 +151,12 @@ p {
     }
 }
 
-/* @media (max-width: 400px) {
-    .section1 {
-        height: 1100px;
+@media (max-width: 400px) {
+    .section1-headline {
+        font-size: 1.5rem;
     }
-} */
+
+    .section1-para {
+        font-size: 0.8rem;
+    }
+}
