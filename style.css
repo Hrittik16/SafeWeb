@@ -150,3 +150,9 @@ p {
         font-size: 1rem;
     }
 }
+
+@media (max-width: 400px) {
+    .section1 {
+        height: 1100px;
+    }
+}
