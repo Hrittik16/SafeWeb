@@ -6,14 +6,12 @@
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            "js": ["script.js"],
-            "html": ["popup.html"]
+            "js": ["script.js"]
         }
     ],
     "icons": {"128": "icon_128.png"},
     "browser_action": {
-        "default_icon": "icon.png",
-        "default_popup": "popup.html"
+        "default_icon": "icon.png"
     },
     "permissions": ["activeTab", "<all_urls>"]
 }
