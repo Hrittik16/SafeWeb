@@ -26,6 +26,10 @@ p {
     margin: 0 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* Navbar starts */
 .navbar .logo {
@@ -121,7 +125,7 @@ p {
 /* Section2 Starts */
 
 .section2 {
-    margin: 7rem 0;
+    margin-top: 7rem;
 }
 
 .section2-heading {
@@ -152,7 +156,35 @@ p {
     margin: 3rem auto;
 }
 
+
 /* Section2 Ends */
+
+
+
+/* Section3 Starts */
+
+.section3 {
+    position: relative;
+    top: 7rem;
+    border: 1px solid black;
+}
+
+.section3-text {
+    padding: 2rem;
+}
+
+.section3-heading {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.section3-installation {
+    font-size: 1.5rem;
+}
+
+
+/* Section3 Ends */
+
 
 
 
