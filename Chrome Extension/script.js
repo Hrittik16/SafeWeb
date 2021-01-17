@@ -994,7 +994,7 @@ function addLayer(element) {
         for(i = 0; i < cuss_words.length; i++) {
           var curr_word = cuss_words[i]
           // Here we are searching for the cuss words using regex and replacing it with black boxes
-          element.textContent = element.textContent.replace(new RegExp(''+curr_word+'',"gi"), '⬛⬛⬛⬛')
+          element.textContent = element.textContent.replace(new RegExp(curr_word,"gi"), '⬛⬛⬛⬛')
         }
     }
 }
