@@ -990,9 +990,10 @@ function addLayer(element) {
         // The else if statement checks if the current
         // element is a text element 
         
+        // Here we are looping through the array of string containing the cuss words
         for(i = 0; i < cuss_words.length; i++) {
           var curr_word = cuss_words[i]
-          var re = new RegExp(''+curr_word+'')
+          // Here we are searching for the cuss words using regex and replacing it with black boxes
           element.textContent = element.textContent.replace(new RegExp(''+curr_word+'',"gi"), '⬛⬛⬛⬛')
         }
     }
