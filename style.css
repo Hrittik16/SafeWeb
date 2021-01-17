@@ -236,6 +236,10 @@ a {
     .section1-para {
         margin: 0 0;
     }
+
+    .section3-installation {
+        margin: 0 2rem;
+    }
 }
 
 @media (max-width: 800px) {
