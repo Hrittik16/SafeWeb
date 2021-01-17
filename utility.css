@@ -2,11 +2,11 @@
     display: inline-block;
     border: none;
     border-radius: 10px;
-    padding: 7px 0;
+    padding: 0.5rem 0;
     background-color: rgb(75, 206, 75);
     color: #fff;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1.5rem;
     outline: none;
     text-decoration: none;
     text-align: center;
@@ -27,5 +27,5 @@
     max-width: 1100px;
     margin: 0 auto;
     overflow: auto;
-    padding: 0 40px;
+    padding: 0 2rem;
 }
