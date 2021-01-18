@@ -6,8 +6,8 @@ As of 2019, there are more than 4 billion people using the internet. While it ha
 To solve this problem I am building a chrome extension which will scan whichever webpage I visit and search for cuss words from a dataset of cuss words on it. After finding cuss words it will hide the words by adding some css on top of it. I am also building a landing page where people can go find out more about the project. 
 
 
-## Link to the live project: https://hrittik16.github.io/SafeWeb/
+### Link to the live project: https://hrittik16.github.io/SafeWeb/
 
-## Link to the video of the project: https://youtu.be/YTapEITwj88
+### Link to the video of the project: https://youtu.be/YTapEITwj88
 
-## Link to the PPT: https://docs.google.com/presentation/d/15GQBWVITwKIAbkChxpWgBV4IeHGZmEqhavc9y7jYY9U/edit?usp=sharing
+### Link to the PPT: https://docs.google.com/presentation/d/15GQBWVITwKIAbkChxpWgBV4IeHGZmEqhavc9y7jYY9U/edit?usp=sharing
