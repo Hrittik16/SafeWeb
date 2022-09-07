@@ -8,6 +8,3 @@ To solve this problem I am building a chrome extension which will scan whichever
 
 ### Link to the live project: https://hrittik16.github.io/SafeWeb/
 
-### Link to the video of the project: https://youtu.be/YTapEITwj88
-
-### Link to the PPT: https://docs.google.com/presentation/d/15GQBWVITwKIAbkChxpWgBV4IeHGZmEqhavc9y7jYY9U/edit?usp=sharing
